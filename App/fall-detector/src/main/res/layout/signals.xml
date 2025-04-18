@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="?attr/actionBarSize"
+    android:background="@color/darkBackground"
+    tools:context="altermarkive.guardian.Waves">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/darkBackground">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkBackground"
+            app:tabTextColor="@color/darkGray"
+            app:tabSelectedTextColor="@color/accentColor"
+            app:tabIndicatorColor="@color/accentColor"/>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/darkBackground">
+
+        <altermarkive.guardian.Surface
+            android:id="@+id/surface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/emergency_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMERGENCY"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/emergencyRed"
+                app:cornerRadius="8dp"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/live"
+                android:textColor="@color/white"
+                app:thumbTint="@color/accentColor"
+                app:trackTint="@color/switchTrackColor"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

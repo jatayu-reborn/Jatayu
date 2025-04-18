@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signals">
+
+    <fragment
+        android:id="@+id/signals"
+        android:name="altermarkive.guardian.Waves"
+        android:label="@string/signals"
+        tools:layout="@layout/signals" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="altermarkive.guardian.Controls"
+        android:label="@string/settings" />
+
+</navigation>

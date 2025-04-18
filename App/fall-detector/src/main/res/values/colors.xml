@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkBackground">#121212</color>
+    <color name="darkGray">#666666</color>
+    <color name="accentColor">#BB86FC</color>
+    <color name="emergencyRed">#CF6679</color>
+    <color name="switchTrackColor">#30BB86FC</color>
+    <color name="surfaceColor">#1E1E1E</color>
+    <color name="cardColor">#2D2D2D</color>
+    <color name="chartBackground">#1A1A1A</color>
+    <color name="chartGridLines">#333333</color>
+    <color name="preferenceBackground">#1A1A1A</color>
+    <color name="preferenceCardBackground">#2D2D2D</color>
+    <color name="preferenceTextColor">@color/white</color>
+    <color name="preferenceSecondaryText">#B3FFFFFF</color>
+    <color name="dividerColor">#1FFFFFFF</color>
+</resources>

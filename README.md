@@ -4,7 +4,7 @@
 
 ---
 
-![GCS](images/image-1.png)
+![GCS](images/Screenshot 2025-04-18 090858.png)
 
 ---
 

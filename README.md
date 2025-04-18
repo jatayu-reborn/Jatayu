@@ -1,4 +1,4 @@
-# JATAYU ![(LOGO)](images/image.png)
+# JATAYU ![(LOGO)](images/logo-jatayu.png)
 
 **Jatayu** is an integrated **emergency healthcare response system** designed to provide efficient and streamlined medical crisis management through a connected web platform. The system connects patients, responders, drones, and AI in real-time to ensure immediate detection, location mapping, medical support delivery, and injury classification during health-related emergencies.
 
